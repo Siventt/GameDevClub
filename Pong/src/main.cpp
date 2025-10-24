@@ -114,9 +114,9 @@ int main()
 	SetTargetFPS(60);
 
 	Sound sonido_golpeS[2];
-	sonido_golpeS[0] = LoadSound("resources/sounds/pongblipa4.wav");
-	sonido_golpeS[1] = LoadSound("resources/sounds/pongblipa5.wav");
-    sonido_gol = LoadSound("resources/sounds/objective-complete.wav");
+	sonido_golpeS[0] = LoadSound("../resources/sounds/pongblipa4.wav");
+	sonido_golpeS[1] = LoadSound("../resources/sounds/pongblipa5.wav");
+    sonido_gol = LoadSound("../resources/sounds/objective-complete.wav");
 
 	Bola bola;
 	bola.pos = Vector2{ 640, 400 };

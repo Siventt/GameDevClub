@@ -10,15 +10,22 @@ Este repositorio está dedicado a guardar y compartir los recursos utilizados y 
 
 Utilizamos esta [**plantilla**](https://github.com/raylib-extras/raylib-quickstart/tree/main) para empezar rápidamente a desarrollar en C/C++ y Raylib. Funciona en Linux, Windows y Mac, instrucciones rápidas para **Linux**:
 1. Clonamos el repositorio en nuestro equipo.
-    >`git clone https://github.com/raylib-extras/raylib-quickstart.git`
+```bash
+git clone https://github.com/raylib-extras/raylib-quickstart.git
+```
 2. Renombramos el proyecto y entramos al directorio.
-    >`mv raylib-quickstart <NOMBRE>`
-    >
-    >`cd <NOMBRE>`
+```bash
+mv raylib-quickstart <NOMBRE>
+cd <NOMBRE>
+```
 3. Eliminamos elementos que no usaremos.
-    >`rm -r include/ resources/ build-MinGW-W64.bat build-VisualStudio2022.bat`
+```bash
+rm -r include/ resources/ build-MinGW-W64.bat build-VisualStudio2022.bat
+```
 4. Cambiamos el fichero fuente para usar C++. (Si se quiere usar C, saltar paso)
-    >`mv src/main.c src/main.cpp`
+```bash
+mv src/main.c src/main.cpp
+```
 5. Copiamos este código plantilla dentro de `main.cpp`.
 ```c++
 #include "raylib.h"
@@ -67,15 +74,22 @@ int main(void)
 }
 ```
 6. Vamos a `build/` donde se encuentran los ficheros para construir el proyecto.
-    >`cd build/`
+```bash
+cd build/
+```
 7. Actualizamos el proyecto. Descargará Raylib si no lo encuentra.
-    >`./premake5 gmake`
+```bash
+./premake5 gmake
+```
 8. Volvemos al directorio raíz del proyecto y ejecutamos `make`, siempre tenemos que realizar esta acción para recompilar el proyecto cuando hagamos cambios.
-    >`cd ..`
-    >
-    >`make`
-9. El ejecutable de nuestro juego se genera en `\bin`, lo abrimos de esta forma:
-   >`./bin/Debug/<NOMBRE>`
+```bash
+cd ..
+make
+```
+9.  El ejecutable de nuestro juego se genera en `\bin`, lo abrimos de esta forma:
+```bash
+./bin/Debug/<NOMBRE>
+```
 10. ¡Disfruta!
 
 

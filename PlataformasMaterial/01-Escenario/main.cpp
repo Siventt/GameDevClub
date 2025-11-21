@@ -1,5 +1,6 @@
 #include "raylib.h"
 #include <algorithm>
+#include <string.h>
 
 const int TAM_CELDA = 16;
 const int COLUMNAS = 80;
@@ -20,10 +21,10 @@ struct Vector2i
 
 int main(void)
 {
-	InitWindow(1920, 1080, "Plataformas");
+	InitWindow(720, 450, "Plataformas");
 	SetWindowState(FLAG_WINDOW_RESIZABLE);
 	SetWindowState(FLAG_VSYNC_HINT);
-	SetTargetFPS(144);
+	SetTargetFPS(60);
 
 	// Creacion del escenario
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

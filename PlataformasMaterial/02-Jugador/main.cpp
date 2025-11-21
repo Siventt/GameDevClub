@@ -2,6 +2,7 @@
 #include <algorithm>
 #include "util.hpp"
 #include "jugador.hpp"
+#include <string.h>
 
 const int TAM_CELDA = 16;
 const int COLUMNAS = 80;
@@ -13,7 +14,7 @@ bool debug_mode = true;
 
 int main(void)
 {
-	InitWindow(1920, 1080, "Plataformas");
+	InitWindow(720, 450, "Plataformas");
 	SetWindowState(FLAG_WINDOW_RESIZABLE);
 	SetWindowState(FLAG_VSYNC_HINT);
 	SetTargetFPS(60);

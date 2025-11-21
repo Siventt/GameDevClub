@@ -2,6 +2,7 @@
 #include <algorithm>
 #include "util.hpp"
 #include "jugador.hpp"
+#include <string.h>
 
 const int TAM_CELDA = 32;
 const int COLUMNAS = 80;
@@ -15,7 +16,7 @@ static void ActualizarCamara(Camera2D* camera, Jugador* jug);
 
 int main(void)
 {
-	InitWindow(1920, 1080, "Plataformas");
+	InitWindow(750, 450, "Plataformas");
 	SetWindowState(FLAG_WINDOW_RESIZABLE);
 	SetWindowState(FLAG_VSYNC_HINT);
 	SetTargetFPS(60);

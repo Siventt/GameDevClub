@@ -1,4 +1,16 @@
-# BOARD
+Memoria:
+
+#Lo primero fue copiar el repo de raylib vía ssh
+
+
+Compilé el juego de raylib para una plataforma arm con
+
+make config=release_arm64
+
+# CONTROLES
+
+Esto son los códigos reconocidos por raylib de cada entrada de la arcade.
+El sistema se piensa que los mandos de la cabina son un teclado normal.
 
 boton
 key:

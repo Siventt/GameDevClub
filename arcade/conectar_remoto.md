@@ -15,5 +15,4 @@ Una vez conectado a internet aparecerá su IP.
 
 > `ssh pi@[IP]`
 
-
-La clave por defecto es `raspberry`
+La clave por defecto es `raspberry` pero ha sido cambiada por seguridad.

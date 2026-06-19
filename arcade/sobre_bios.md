@@ -1,10 +1,10 @@
 # Sobre BIOS
 
-Algunos sistemas requieren BIOS para funcionar correctamente o siquiera arrancar. Estos binarios son software propietario de las empresas que 
-lo desarrollaron (e.g. Playstation 1, de Sony), entonces no se pueden 
-hacer públicas, igual que las ROMs.
+Algunos sistemas requieren BIOS para funcionar correctamente o siquiera arrancar. 
+Estos binarios son software propietario de la empresa (e.g. Playstation 1, de Sony), 
+entonces no se pueden hacer públicas, igual que las ROMs.
 
-GAME SETTINGS >> MISSING BIOS CHECK
+GAME SETTINGS >> MISSING BIOS CHECK ??
 
 Muestra una lista de las BIOS necesarias para los sistemas instalados o 
 para todos.
@@ -19,7 +19,7 @@ Desde linux, puedes obtener esa firma de una BIOS con:
 > `md5sum [BIOS]`
 
 
-## Listado de BIOS Presentes
+## Listado de BIOS Usadas
 
 | Sistema | Nombre    | MD5   | 
 |:-------:|:----------|:------|

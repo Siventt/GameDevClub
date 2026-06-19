@@ -13,11 +13,10 @@ BUG_REPORT_URL="http://www.raspbian.org/RaspbianBugs"
 
 
 
-Lo primero de todo es saber cómo manejarse por el sistema.
+Para manejarse por el sistema y Emulation Station (ES)
 
-
-
-Para manejarse por ES
+Por defecto Retropie usa la distribución de teclado en-us, 
+se puede cambiar desde raspi-config.
 
 ## Controles Teclado:
 [Documentación de Retropie](https://retropie.org.uk/docs/)
@@ -75,28 +74,10 @@ Hacer una tabla
 
 [F1]     : 
 
-## Añadir ROMs y BIOS
-
-Conectarse por red, desde el mismo explorador o por ssh.
-
-Desde un equipo en la misma red local:
-> `ssh root@batocera.local`
-
-La contraseña de root es `linux`
-
-
-
-Saber qué BIOS se necesita:
-MAIN MENU >> GAME SETTINGS >> MISSING BIOS CHECK
-Buscar las bios con esos códigos MD5
-
 ## Terminal
 
 Puedes cambiar a una terminal con [Ctrl]+[Alt]+[F3].
 Con [Ctrl]+[Alt]+[F1] vuelves a la interfaz gráfica.
-
-
-
 
 ## Actualizaciones
 

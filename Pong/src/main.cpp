@@ -114,9 +114,9 @@ int main()
 	SetTargetFPS(60);
 
 	Sound sonido_golpeS[2];
-	sonido_golpeS[0] = LoadSound("../resources/sounds/pongblipa4.wav");
-	sonido_golpeS[1] = LoadSound("../resources/sounds/pongblipa5.wav");
-    sonido_gol = LoadSound("../resources/sounds/objective-complete.wav");
+	sonido_golpeS[0] = LoadSound(ASSETS_PATH"sounds/pongblipa4.wav");
+	sonido_golpeS[1] = LoadSound(ASSETS_PATH"sounds/pongblipa5.wav");
+    sonido_gol = LoadSound(ASSETS_PATH"sounds/objective-complete.wav");
 
 	Bola bola;
 	bola.pos = Vector2{ 640, 400 };
@@ -152,7 +152,7 @@ int main()
 				else
 					bola.vel.x *= -1;
 				bola.pos.x = pala.rec.x + pala.rec.width + bola.radio; // Adicional. BUG FIX
-				// no me gusta, da inclinación a la pelota, buscar mejor math
+				// no me gusta, da inclinaciï¿½n a la pelota, buscar mejor math
 				// bola.vel.y = (bola.pos.y - pala.rec.y) / (pala.rec.height / 2) * -bola.vel.x;
 
 				PlaySound(sonido_golpeS[rand() % 2]);

@@ -85,7 +85,7 @@ struct Food
   
     Food(deque<Vector2> snakeBody)
     {
-        Image image = LoadImage("resources/food.png");
+        Image image = LoadImage("assets/food.png");
         texture = LoadTextureFromImage(image);
         UnloadImage(image);
         
@@ -123,8 +123,8 @@ struct Game
     
     Game()
     {
-        eatSound = LoadSound("resources/sounds/eat.mp3");
-        wallSound = LoadSound("resources/sounds/wall.mp3");
+        eatSound = LoadSound("assets/sounds/eat.mp3");
+        wallSound = LoadSound("assets/sounds/wall.mp3");
     }
     
     ~Game()

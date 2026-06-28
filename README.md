@@ -2,96 +2,47 @@
 
 **¡Bienvenido al repo del GDC!**
 
-En el club nos dedicamos a aprender a desarrollar videojuegos, principalmente usando C++ y una sencilla librería que nos facilita la programación llamada [**Raylib**](https://www.raylib.com/).
+En el club nos dedicamos a aprender a crear videojuegos, principalmente usamos C o C++ junto con [**Raylib**](https://www.raylib.com/), una librería para facilitar el desarrollo pero sin abstraer demasiado del código.
 
 Este repositorio está dedicado a guardar y compartir los recursos utilizados y creados en el club.
 
-## Comienzo Rápido
+## Cómo construir los proyectos
 
-Utilizamos esta [**plantilla**](https://github.com/raylib-extras/raylib-quickstart/tree/main) para empezar rápidamente a desarrollar en C/C++ y Raylib. Funciona en Linux, Windows y Mac, instrucciones rápidas para **Linux**:
-1. Clonamos el repositorio en nuestro equipo.
+Utilizamos [CMake](https://cmake.org/) para manejar los proyectos, este ejemplo es en Linux desde terminal pero la herramienta es independiente de la plataforma. Tras clonar este repo con `git clone ...` y encontrarse en su directorio hay que hacer lo siguiente:
+
+1. Entrar en el proyecto (e.g. Pong), crear una carpeta `build` y entrar en ella.
+
 ```bash
-git clone https://github.com/raylib-extras/raylib-quickstart.git
+cd Pong
+mkdir build
+cd build
 ```
-2. Renombramos el proyecto y entramos al directorio.
+
+La carpeta `build` contiene los recursos necesarios para compilar y construir el ejecutable, puede borrarse una vez creado, es donde se descarga y configura raylib.
+
+2. Ejecutar CMake.
+
 ```bash
-mv raylib-quickstart <NOMBRE>
-cd <NOMBRE>
+cmake ..
 ```
-3. Eliminamos elementos que no usaremos.
+
+CMake utiliza el fichero `CMakeLists.txt` de la raíz del proyecto para saber qué tiene que hacer y con esos parámetros crea un `Makefile`.
+
+3. Crear el ejecutable usando el `Makefile`.
+
 ```bash
-rm -r include/ resources/ build-MinGW-W64.bat build-VisualStudio2022.bat
-```
-4. Cambiamos el fichero fuente para usar C++. (Si se quiere usar C, saltar paso)
-```bash
-mv src/main.c src/main.cpp
-```
-5. Copiamos este código plantilla dentro de `main.cpp`.
-```c++
-#include "raylib.h"
-
-//------------------------------------------------------------------------------------
-// Program main entry point
-//------------------------------------------------------------------------------------
-int main(void)
-{
-    // Initialization
-    //--------------------------------------------------------------------------------------
-    const int screenWidth = 800;
-    const int screenHeight = 450;
-
-    InitWindow(screenWidth, screenHeight, "raylib [core] example - basic window");
-
-    SetTargetFPS(60);               // Set our game to run at 60 frames-per-second
-    //--------------------------------------------------------------------------------------
-
-    // Main game loop
-    while (!WindowShouldClose())    // Detect window close button or ESC key
-    {
-        // Update
-        //----------------------------------------------------------------------------------
-        // TODO: Update your variables here
-        //----------------------------------------------------------------------------------
-
-        // Draw
-        //----------------------------------------------------------------------------------
-        BeginDrawing();
-
-            ClearBackground(RAYWHITE);
-
-            DrawText("Congrats! You created your first window!", 190, 200, 20, LIGHTGRAY);
-
-        EndDrawing();
-        //----------------------------------------------------------------------------------
-    }
-
-    // De-Initialization
-    //--------------------------------------------------------------------------------------
-    CloseWindow();        // Close window and OpenGL context
-    //--------------------------------------------------------------------------------------
-
-    return 0;
-}
-```
-6. Vamos a `build/` donde se encuentran los ficheros para construir el proyecto.
-```bash
-cd build/
-```
-7. Actualizamos el proyecto. Descargará Raylib si no lo encuentra.
-```bash
-./premake5 gmake
-```
-8. Volvemos al directorio raíz del proyecto y ejecutamos `make`, siempre tenemos que realizar esta acción para recompilar el proyecto cuando hagamos cambios.
-```bash
-cd ..
 make
 ```
-9.  El ejecutable de nuestro juego se genera en `\bin`, lo abrimos de esta forma:
+
+4. Ejecutar el programa en la raíz del proyecto.
+
 ```bash
-./bin/Debug/<NOMBRE>
+cd ..
+./pong
 ```
-10. ¡Disfruta!
 
+## Cómo crear un proyecto nuevo
 
+La carpeta `Plantilla` contiene un proyecto vacío, seguir su [README.md](./Plantilla/README.md).
 
 

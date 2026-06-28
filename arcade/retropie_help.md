@@ -76,7 +76,7 @@ Hacer una tabla
 
 ## Terminal
 
-Puedes cambiar a una terminal con [Ctrl]+[Alt]+[F3].
+Puedes cambiar a una terminal con [Ctrl]+[Alt]+[F3] o con [F4].
 Con [Ctrl]+[Alt]+[F1] vuelves a la interfaz gráfica.
 
 ## Actualizaciones

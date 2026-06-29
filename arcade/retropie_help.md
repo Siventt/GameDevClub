@@ -23,6 +23,8 @@ se puede cambiar desde raspi-config.
 
 ### Teclado
 
+Para un teclado normal
+
   Input  | Tecla          |
 :-------:|:---------------|
 [UP]     | Up Arrow Key  
@@ -42,11 +44,12 @@ El sistema reconoce el mando de arcade como un teclado.
 
 #### J1
 
-Hacer una tabla
+
+
+[NORTH]  : Verda | KEY M
+[WEST]   : Azul | KEY LEFT ALT
+[EAST]   : Rojo | KEY SPACE
 [SOUTH]  : Amarillo | KEY LEFT SHIFT
-[EAST]   : Rojo | KEYSPACE
-[WEST]   : Verde | KEY M
-[NORTH]  : Azul | KEY LEFT ALT
 
 [START]  : Blanco | KEY V
 [SELECT] : Rojo Superior | KEY C
@@ -56,12 +59,14 @@ Hacer una tabla
 [D-PAD-LEFT]  : Palanca Izquierda | KEY LEFT
 [D-PAD-RIGHT] : Palanca Derecha | KEY RIGHT
 
-[LEFT SHOULDER] : Negro Superior | KEY Z
-[RIGHT SHOULDER] : Negro Inferior | KEY X
+[LEFT-SHOULDER] : Negro Superior | KEY Z
+[RIGHT-SHOULDER] : Negro Inferior | KEY X
 
 ### GENERAL
 
 [HOTKEY] : Morado | KEY 6
+
+[AMARILLO] : 5
 
 
 [DOWN]   : 

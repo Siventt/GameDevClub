@@ -42,43 +42,6 @@ Para un teclado normal
 
 El sistema reconoce el mando de arcade como un teclado.
 
-#### J1
-
-
-
-[NORTH]  : Verda | KEY M
-[WEST]   : Azul | KEY LEFT ALT
-[EAST]   : Rojo | KEY SPACE
-[SOUTH]  : Amarillo | KEY LEFT SHIFT
-
-[START]  : Blanco | KEY V
-[SELECT] : Rojo Superior | KEY C
-
-[D-PAD-UP]    : Palanca Arriba | KEY UP
-[D-PAD-DOWN]  : Palanca Abajo | KEY DOWN
-[D-PAD-LEFT]  : Palanca Izquierda | KEY LEFT
-[D-PAD-RIGHT] : Palanca Derecha | KEY RIGHT
-
-[LEFT-SHOULDER] : Negro Superior | KEY Z
-[RIGHT-SHOULDER] : Negro Inferior | KEY X
-
-### GENERAL
-
-[HOTKEY] : Morado | KEY 6
-
-[AMARILLO] : 5
-
-
-[DOWN]   : 
-[LEFT]   : 
-[RIGHT]  : 
-[UP]     :
-
-
-
-
-[F1]     : 
-
 ## Terminal
 
 Puedes cambiar a una terminal con [Ctrl]+[Alt]+[F3] o con [F4].
@@ -91,4 +54,4 @@ RASPBERRY-SETUP: sirve para actualizar paquetes del OS.
 
 Tiene una apartado en la [documentación](https://retropie.org.uk/docs/Updating-RetroPie/).
 
-(A 14/05/2026, al buscar falla en algunos paquetes, quizá ya no se mantienen.)
+Los repositorios estaban desactualizados, al cambiarlos los paquetes ya se pueden actualizar.

@@ -6,6 +6,7 @@
 - Jojo's Bizarre Adventure: Herritage for the Future
 - Marvel VS Capcom 2
 - Super Street Fighter II X: for Matching Service
+- Street Fighter 3: 3rd Strike
 - Vampire Chronicle: for Matching Service
 
 ## GameBoy Advance
@@ -48,6 +49,9 @@
 - Digimon Rumble Arena
 - Street Fighter Collection
 - Tekken 3
+
+## PSP
+- Tekken: Dark Resurrection
 
 ## Sega Saturn
 

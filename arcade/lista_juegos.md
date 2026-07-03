@@ -1,7 +1,5 @@
 # Listado de juegos
 
-## Commodore 64
-
 ## Dreamcast
 - Jojo's Bizarre Adventure: Herritage for the Future
 - Marvel VS Capcom 2
@@ -57,7 +55,5 @@
 
 ## SNES
 - Kirby's Dream Course
-
-## Spectrum
 
 

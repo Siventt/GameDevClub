@@ -11,9 +11,15 @@ Para conectar la rpi a una red WIFI hay varios métodos.
 
 La forma más cómoda de acceder es usando SSH desde otro ordenador en la misma LAN.
 
-[Activar SSH](https://retropie.org.uk/docs/SSH/)
+Debería estar activado por defecto pero si no: [Activar SSH](https://retropie.org.uk/docs/SSH/)
 
-Una vez conectado a internet aparecerá su IP.
+Una vez conectado a internet se puede conocer su IP desde terminal con
+
+> `ip addr`
+
+O con la entrada `SHOW MY IP` en el menú `RetroPie` de EmulationStation.
+
+Una vez conocida conectar usando SSH desde terminal
 
 > `ssh pi@[IP]`
 

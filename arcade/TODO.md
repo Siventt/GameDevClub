@@ -2,6 +2,8 @@
 
 ## Por hacer
 
+- [ ] Añadir juegos creados en el GameDev Club.
+- [ ] Añadir juegos caseros anteriores "TP-Games".
 - [ ] Scrapear (covers) y Trastear para averiguar si hay alguna forma de mostrar mejor las carátulas
 - [ ] Quitar juegos repes, renombrarlos bien, añadir clásicos y configuar sus controles.
 - [ ] Tema para EmulationStation.

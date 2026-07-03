@@ -2,6 +2,8 @@
 
 **¡Bienvenido al repo del GDC!**
 
+![Logo](./arcade/img/GDC_logo.png)
+
 En el club nos dedicamos a aprender a crear videojuegos, principalmente usamos C o C++ junto con [**Raylib**](https://www.raylib.com/), una librería para facilitar el desarrollo pero sin abstraer demasiado del código.
 
 Este repositorio está dedicado a guardar y compartir los recursos utilizados y creados en el club.

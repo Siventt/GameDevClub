@@ -5,7 +5,7 @@ No tienen por qué ser los mismos.
 
 Los controles del Player 1 están a la izquierda; los del Player 2, a la derecha. También existen dos botones generales.
 
-![Panel de control de la arcade: joystick y botones](./img/arcade_pad.jpeg)
+<img src="./img/arcade_pad.jpeg" alt="Poster" width="50%" height="auto">
 
 A continucación, los controles según la interfaz por la que te desplaces:
 

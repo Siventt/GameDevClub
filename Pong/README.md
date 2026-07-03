@@ -15,7 +15,7 @@ Es un juego con un diseño sencillo y fácil de recrear, por eso es un buen prim
 
 Se pueden apender algunos temas fundamentales como dibujar elementos en pantalla, moverlos automáticamente, manejar la entrada de los jugadores y revisar colisiones entre formas básicas.
 
-Se ha realizada en C++ usando Raylib, en unas 200 líneas de código.
+Se ha realizado en C++ usando Raylib, en unas 200 líneas de código.
 
 ---
 

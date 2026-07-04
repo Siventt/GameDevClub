@@ -24,3 +24,15 @@ Una vez conocida conectar usando SSH desde terminal
 > `ssh pi@[IP]`
 
 La clave por defecto es `raspberry` pero ha sido cambiada por seguridad.
+
+## Transferencia de ficheros
+
+Para pasar archivos entre un ordenador y la rpi se aconseja usar uno de estos dos comandos:
+
+> `scp [opciones] [origen] [destino]`
+
+> `rsync [opciones] [origen] [destino]`
+
+`[origen]` o `[destino]` pueden sustituirse por un directorio de tu máquina o de otra conectada en remoto: `usuario@dir_ip:ruta`
+
+Rsync es un comando más potente que permite traspasos más flexibles. Se destacan las opciones: `-avP`

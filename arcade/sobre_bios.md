@@ -31,6 +31,6 @@ Desde linux, puedes obtener esa firma de una BIOS con:
 | Saturn | sega_101.bin | 85ec9ca47d8f6807718151cbcca8b964
 | Saturn | mpr-17933.bin | 3240872c70984b6cbfda1586cab68dbe
 | Saturn | saturn_bios.bin | af5828fdff51384f99b3c4926be27762
-| Dreamcast | dc_flash.bin | ???
-| Dreamcast | dc_boot.bin | ???
-| Dreamcast | naomi.zip (solo si juegos de arcade Sega Naomi) | ???  
+| Dreamcast | dc_flash.bin | 9876c957b48e136fbe668a01b7993e9b
+| Dreamcast | dc_boot.bin | e10c53c2f8b90bab96ead2d368858623
+| Dreamcast | naomi.zip | 8bab1ba136d0cb6ebcc05a27c4dfc185

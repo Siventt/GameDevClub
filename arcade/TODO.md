@@ -4,18 +4,16 @@
 
 - [ ] Añadir juegos creados en el GameDev Club.
 - [ ] Añadir juegos caseros anteriores "TP-Games".
-- [ ] Scrapear (covers) y Trastear para averiguar si hay alguna forma de mostrar mejor las carátulas
-- [ ] Quitar juegos repes, renombrarlos bien, añadir clásicos y configuar sus controles.
-- [ ] Tema para EmulationStation.
-- [ ] Hacer que funcione bien el emulador de mame.
-- [ ] Poner la sección-pegatinas y rehacer el cartel de controles
 - [ ] Menú de emulationStation para juegos de la comunidad
 - [ ] Encontrar la forma de salir de los juegos de la comunidad.
+- [ ] Tema para EmulationStation.
+- [ ] Poner la sección-pegatinas.
+- [ ] Rehacer el cartel de controles.
+- [ ] Portear Undertale para la arcade.
 
 ## En progreso
-
-- [ ] Portear Undertale para la arcade
-
+- [ ] Quitar juegos repes, renombrarlos bien, añadir clásicos y configuar sus controles.
+- [ ] Scrapear (covers).
 
 ## Terminado
 

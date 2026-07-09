@@ -1,35 +1,68 @@
+/*******************************************************************************************
+*
+*   raylib [textures] example - logo raylib
+*
+*   Example complexity rating: [★☆☆☆] 1/4
+*
+*   Example originally created with raylib 1.0, last time updated with raylib 1.0
+*
+*   Example licensed under an unmodified zlib/libpng license, which is an OSI-certified,
+*   BSD-like license that allows static linking with closed source software
+*
+*   Copyright (c) 2014-2025 Ramon Santamaria (@raysan5)
+*
+********************************************************************************************/
+
 #include "raylib.h"
 
-#define SCREEN_WIDTH (800)
-#define SCREEN_HEIGHT (450)
+#define ASSETS_PATH "./assets/"
 
-#define WINDOW_TITLE "Window title"
-
+//------------------------------------------------------------------------------------
+// Program main entry point
+//------------------------------------------------------------------------------------
 int main(void)
 {
-    InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, WINDOW_TITLE);
-    SetTargetFPS(60);
+    // Initialization
+    //--------------------------------------------------------------------------------------
+    const int screenWidth = 800;
+    const int screenHeight = 450;
 
-    Texture2D texture = LoadTexture(ASSETS_PATH"test.png"); // Check README.md for how this works
+    InitWindow(screenWidth, screenHeight, "raylib [textures] example - logo raylib");
 
-    while (!WindowShouldClose())
+    // NOTE: Textures MUST be loaded after Window initialization (OpenGL context is required)
+    Texture2D texture = LoadTexture(ASSETS_PATH"raylib_logo.png");        // Texture loading
+
+    SetTargetFPS(60);               // Set our game to run at 60 frames-per-second
+    //---------------------------------------------------------------------------------------
+
+    // Main game loop
+    while (!WindowShouldClose())    // Detect window close button or ESC key
     {
+        // Update
+        //----------------------------------------------------------------------------------
+        // TODO: Update your variables here
+        //----------------------------------------------------------------------------------
+
+        // Draw
+        //----------------------------------------------------------------------------------
         BeginDrawing();
 
-        ClearBackground(RAYWHITE);
+            ClearBackground(RAYWHITE);
 
-        const int texture_x = SCREEN_WIDTH / 2 - texture.width / 2;
-        const int texture_y = SCREEN_HEIGHT / 2 - texture.height / 2;
-        DrawTexture(texture, texture_x, texture_y, WHITE);
+            DrawTexture(texture, screenWidth/2 - texture.width/2, screenHeight/2 - texture.height/2, WHITE);
 
-        const char* text = "OMG! IT WORKS!";
-        const Vector2 text_size = MeasureTextEx(GetFontDefault(), text, 20, 1);
-        DrawText(text, SCREEN_WIDTH / 2 - text_size.x / 2, texture_y + texture.height + text_size.y + 10, 20, BLACK);
+            DrawText("¡Todo listo para empezar!", 270, 370, 20, GRAY);
 
         EndDrawing();
+        //----------------------------------------------------------------------------------
     }
 
-    CloseWindow();
+    // De-Initialization
+    //--------------------------------------------------------------------------------------
+    UnloadTexture(texture);       // Texture unloading
+
+    CloseWindow();                // Close window and OpenGL context
+    //--------------------------------------------------------------------------------------
 
     return 0;
 }

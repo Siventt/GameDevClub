@@ -12,6 +12,7 @@
 - Bubble Bobble Symphony (*Bubble Bobble 2*)
 - Cadillacs and Dinosaurs
 - Contra
+- Defender
 - Donkey Kong
 - Donkey Kong 3
 - Donkey Kong Jr.

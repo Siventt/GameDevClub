@@ -33,6 +33,6 @@ Para pasar archivos entre un ordenador y la rpi se aconseja usar uno de estos do
 
 > `rsync [opciones] [origen] [destino]`
 
-`[origen]` o `[destino]` pueden sustituirse por un directorio de tu máquina o de otra conectada en remoto: `usuario@dir_ip:ruta`
+`[origen]` o `[destino]` pueden sustituirse por un directorio de tu máquina o de otra conectada en remoto: `usuario@ip:ruta`
 
-Rsync es un comando más potente que permite traspasos más flexibles. Se destacan las opciones: `-avP`
+Rsync es un comando más potente que permite traspasos más flexibles. Se recomienda las opciones: `-avP`

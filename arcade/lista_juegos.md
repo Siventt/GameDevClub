@@ -29,7 +29,7 @@
 - Samurai Showdown II
 - Samurai Showdown III
 - Samurai Showdown IV
-- Snow Bros
+- Snow Bros.
 - Space Invaders
 - Splatter House
 - Street Fighter Alpha
@@ -52,6 +52,8 @@
 - Vampire Hunter 2 
 - Vampire Savior
 - Vampire Savior 2
+- Virtua Fighter 1
+- Virtua Fighter 2
 
 ## Dreamcast
 
@@ -74,26 +76,38 @@
 ## Megadrive
 
 - Alex Kidd in the Enchanted Castle
+- Bonanza Bros.
 - Moonwalk
 - OutRun
+- Ristar
 - Road Rash 3
 - Sonic & Knucles
+- Sonic & Knucles
+- Sonic 3D Blast
+- Sonic Spinball
 - Sonic the Hedgehog
 - Sonic the Hedgehog 2
+- Sonic the Hedgehog 3
+- Sonic the Hedgehog 3 & Knucles
 - Streets of Rage
+- Streets of Rage 3
 - Teenage Mutant Hero Turtles: the Hyperstone Heist
 - Zombies
 
 ## NES
 
+- 2048
 - Ballon Fight
 - Bomberman
 - Castlevania
+- Mega man 1
+- Mega man 2
 - Mega Man 3
 - Super Mario Bros
 - Super Mario Bros 2
 - Super Mario Bros 3
 - The Legend of Zelda
+- The Legend of Zelda: The Adventure of Link
 
 ## Nintendo 64
 
@@ -116,6 +130,9 @@
 
 ## PSP
 
+- Sonic Rivals
+- Sonic Rivals 2
+- Tekken 6
 - Tekken: Dark Resurrection
 
 ## SNES

@@ -8,6 +8,6 @@ Esta 'Estación de emulación' no es más que un programa que proporciona una in
 
 - Los juegos arcade (emuladores Mame o FinalBurn) son detectados si se añaden a `roms/arcade`.
 
- - Para modificar la información sobre un juego pulsar `Select` y entrar en la sección `Edit This Game's Metadata` 
+ - Para modificar la información sobre un juego pulsar `Select` y entrar en la sección `Edit This Game's Metadata`.
 
 
